@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    overflow: hidden;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 100vh;
+}
+
+.ownerImage{
+    border-radius: 150px;
+    width: 250px;
+    height: 250px;
+}
+
+.hover{
+    border-radius: 0px;
+    width: 250px;
+    height: 250px;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+.username{
+    margin: 40px;
+}
+
+#reposTitle{
+    margin:px;
+}
+ul{
+    font-size: 1rem;
+}
+li{
+    list-style: none;
+    text-decoration: none;
+    margin:5px;
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color: white;
+}
+
+a:hover{
+    color: aquamarine;
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    color: black;
+    font-size: 20px;
+    margin: 0px;
+}
+
+button:hover{
+    background-color: aquamarine;
+    cursor: pointer;
+}
