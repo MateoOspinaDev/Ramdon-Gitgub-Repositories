@@ -77,10 +77,10 @@ aside.appendChild(ul);
 
 
 //Hacer hover sin hover en css
-const makeHoverWithoutCss=()=>{
-    ownerImage.classList.toggle("hover")
-}
-ownerImage.addEventListener("mouseover",makeHoverWithoutCss);
+// const makeHoverWithoutCss=()=>{
+//     ownerImage.classList.toggle("hover")
+// }
+// ownerImage.addEventListener("mouseover",makeHoverWithoutCss);
 
 
 
